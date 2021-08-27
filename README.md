@@ -1,6 +1,6 @@
 project command
 npm init    create package.json in root of project
-
+npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
 
 
 when we have protected routes we're getting a token that has a payload with the user's information
