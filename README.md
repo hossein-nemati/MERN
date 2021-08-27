@@ -1,7 +1,7 @@
 project command
 npm init    create package.json in root of project
 npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
-
+npm i -D nodemon
 
 when we have protected routes we're getting a token that has a payload with the user's information
 won't sending out our request to our server from our component
