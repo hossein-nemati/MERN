@@ -7,6 +7,10 @@ front end
 npm i -g create-react-app
 create-react-app client
 
+npm i concurrently
+
+
+
 when we have protected routes we're getting a token that has a payload with the user's information
 won't sending out our request to our server from our component
 want to do that from a redux action and then we get the response 
