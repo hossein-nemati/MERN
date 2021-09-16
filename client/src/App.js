@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -8,6 +9,7 @@ import Register from './components/layout/auth/Register';
 import Login from './components/layout/auth/Login';
 
 import './App.css';
+import { Provider } from 'react-redux';
 
 class App extends Component{
   render() {
